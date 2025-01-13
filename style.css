@@ -6,7 +6,6 @@ body{
 }
 svg{
     width: 25px;
-    margin: 5px 0 0 20px;
 }
 header{
     width: 1200px;
@@ -22,8 +21,6 @@ header{
 }
 header .logo{
     font-weight: bold;
-    font-size: 20px;
-    margin-left: -7px;
 }
 header .menu{
     padding: 0;
@@ -168,6 +165,13 @@ header .menu{
     inset: auto 10px 10px 10px;
 }
 @media screen and (max-width:678px) {
+    svg{
+        margin-left: 1rem;
+    }
+    header .logo{
+        font-size: 1.3rem;
+        margin-left: -0.5rem;
+    }
     .thumbnail{
         justify-content: start;
     }
