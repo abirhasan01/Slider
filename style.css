@@ -165,6 +165,13 @@ header .menu{
     inset: auto 10px 10px 10px;
 }
 @media screen and (max-width:678px) {
+    svg{
+        margin-left: 1rem;
+    }
+    header .logo{
+        font-size: 1.3rem;
+        margin-left: -0.5rem;
+    }
     .thumbnail{
         justify-content: start;
     }
